@@ -10,7 +10,7 @@
     }
 
     .banner-content {
-        padding: 60px 10px 20px 10px;
+        padding: 40px 10px 20px 10px;
     }
 
     .banner-content > h1 {
@@ -154,6 +154,10 @@
         width: 100%;
     }
 
+    .video-overlay > p {
+        transform: translate(0px, -150px);
+    }
+    
     .newsletter-section {
         padding: 30px 0px 0px 0px;
     }
