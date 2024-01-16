@@ -294,8 +294,9 @@ button i {
     margin-bottom: 12px;
 }
 
-.images-flex-1 > .img-box img{
+.images-flex-1 > .img-box img {
     width: 100%;
+    height: 286px;
 }
 
 .images-flex-2 >.img-box img{
@@ -543,12 +544,14 @@ button i {
     margin-top: 80px;
 }
 
-.client-card-01{
+.client-card-01 {
     border-radius: 16px;
     border: 1px solid rgb(168 170 171 / 20%);
     background: rgba(19, 19, 24, 0.05);
     padding: 40px 50px;
     text-align: center;
+    width: 50%;
+    min-height: 400px;
 }
 
 .client-card-01 > img{

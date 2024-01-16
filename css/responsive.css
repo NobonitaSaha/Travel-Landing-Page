@@ -130,6 +130,12 @@
         gap: 30px;
     }
 
+    .client-card-01 {
+        padding: 30px 15px;
+        width: 100%;
+        min-height: 400px;
+    }
+
     .place-section {
         padding: 30px 0px;
     }
