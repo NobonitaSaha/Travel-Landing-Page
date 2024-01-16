@@ -277,3 +277,198 @@
         height: 400px;
     }
 }
+
+
+@media only screen and (max-width: 768px) and (min-width: 576px){
+
+    .logo-name > h2 {
+        margin-left: 12px;
+        font-size: 30px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hamburger-icon > i {
+        display: block;
+        font-size: 26px;
+        color: #131318;
+    }
+
+    .banner-content {
+        padding: 50px;
+    }
+
+    .banner-content > h1 {
+        font-size: 40px;
+    }
+
+    .banner-form > form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner-form {
+        padding: 10px 140px;
+    }
+
+    .popular-section {
+        padding: 20px 0px 30px 0px;
+    }
+
+    .popular-row {
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .popular-image > img {
+        width: auto;
+        height: 550px;
+        margin-left: -80px;
+    }
+
+    .section-content {
+        padding: 0px 20px;
+    }
+
+    .section-content > h2 {
+        font-size: 32px;
+    }
+
+    .destination-section {
+        padding: 30px 0px;
+    }
+
+    .destination-grid {
+        margin-top: 40px;
+    }
+
+    .images-flex-1 > .img-box img {
+        height: 250px;
+    }
+
+    .images-flex-2 > .img-box img {
+        height: 260px;
+    }
+
+    .images-flex-3 > .img-box img {
+        height: 260px;
+    }
+
+    .choose-section {
+        padding: 30px 0px;
+    }
+
+    .choose-row-1 {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 40px;
+    }
+
+    .choose-row-2 {
+        width: 100%;
+        transform: translateX(0px);
+        margin-top: 30px;
+    }
+
+    .discounts-section {
+        padding: 30px 0px;
+    }
+
+    .discounts-bg-right {
+        width: 70%;
+        padding: 35px;
+    }
+
+    .discounts-bg-left {
+        width: 70%;
+        padding: 35px;
+    }
+
+    .discounts-text > ul li {
+        margin-bottom: 15px;
+        font-size: 14px;
+        padding-right: 15px;
+    }
+
+    .testimonial-section {
+        padding: 30px 0px;
+    }
+
+    .testimonial-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    .client-card-01 {
+        width: 100%;
+        min-height: 360px;
+    }
+
+    .place-section {
+        padding: 30px 0px;
+    }
+
+    .place-description > h3 {
+        font-size: 32px;
+    }
+
+    .place-content {
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .place-video > video {
+        width: 100%;
+    }
+
+    .newsletter-section {
+        padding: 30px 0px 0px 0px;
+    }
+    
+    .news-form {
+        width: 100%;
+    }
+
+    .newsletter-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+    footer {
+        height: 390px;
+        text-align: center;
+        padding: 40px 0px;
+        margin-top: -30px;
+    }
+
+    .footer-content > p {
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (max-width: 1438px) and (min-width: 769px){
+    .container {
+        width: 92%;
+        max-width: 1200px;
+        margin: 0 auto;
+    } 
+
+    .discounts-bg-left {
+        width: 60%;
+    }
+
+    .discounts-bg-right {
+        width: 60%;
+    }
+
+    .place-video > video {
+        width: 480px;
+    }
+}
