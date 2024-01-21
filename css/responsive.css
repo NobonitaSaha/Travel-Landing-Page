@@ -137,7 +137,11 @@
     }
 
     .place-section {
-        padding: 30px 0px;
+        padding: 30px 0px 0px 0px;
+    }
+
+    .place-video:before {
+        bottom: 50px;
     }
 
     .place-content {
@@ -155,7 +159,8 @@
     }
 
     .video-overlay > p {
-        transform: translate(0px, -150px);
+        transform: translate(0px, -135px);
+        font-size: 18px;
     }
     
     .newsletter-section {

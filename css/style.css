@@ -121,6 +121,7 @@ nav ul li > a.active{
     background-image: url('../images/banner-photo.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 550px;
     width: 100%;
     border-radius: 16px;
@@ -668,8 +669,8 @@ button i {
 }
 
 .video-overlay > p {
-    transform: translate(0px, -200px);
-    font-size: 20px;
+    transform: translate(0px, -180px);
+    font-size: 22px;
     text-align: center;
     font-weight: 800;
     color: #fff;
@@ -761,11 +762,12 @@ button.subscribe-btn {
     margin: 10px 0px 0px 0px;
 }
 
-.save-overlay > h4{
+.save-overlay > h4 {
     font-size: 28px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    text-align: center;
 }
 /* -----------------------
     Newsletter End
